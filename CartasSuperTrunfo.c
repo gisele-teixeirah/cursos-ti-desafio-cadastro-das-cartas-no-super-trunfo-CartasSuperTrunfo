@@ -13,7 +13,7 @@ int main() {
     float PIB; // Produto Interno Bruto
     int pontos_turisticos; // número dos pontos turísticos da cidade
 
-    printf("\nSuper Trunfo - Tema: cidades\n");
+    printf("\nSuper Trunfo - Tema: Países\n");
     printf("---------------------------------\n\n");
     
     printf("===Cadastro das Cartas====\n\n");
@@ -51,7 +51,7 @@ int main() {
     printf("Nome da cidade:%s\n", cidade);
     printf("Número da população:%d habitantes\n",populacao);
     printf("Área:%.2f km²\n", area);
-    printf("PIB:R$%.2f\n", PIB);
+    printf("PIB:R$%.2f milhões\n", PIB);
     printf("Número de pontos turísticos:%d\n\n", pontos_turisticos);
 
     //Carta 2
@@ -90,7 +90,7 @@ int main() {
     printf("Nome da cidade:%s\n", cidade);
     printf("Número da população:%d habitantes\n",populacao);
     printf("Área:%.2f km²\n", area);
-    printf("PIB:R$%.2f\n", PIB);
+    printf("PIB:R$%.2f milhões\n", PIB);
     printf("Número de pontos turísticos:%d\n\n", pontos_turisticos);
 
    
