@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo
-// Nível Aventureiro
+// Nível Mestre
 
 int main() {
     char estado [50]; // Nome do estado
@@ -143,9 +143,15 @@ int main() {
     printf("=== Comparação de Cartas! ===\n");
     printf("----------------------------------\n\n");
 
-    printf("Se o resultado for 1, a carta 1 vence; se for 0, vence a carta 2.");
+    printf("Se o resultado for 1, a carta 1 vence; se for 0, vence a carta 2.\n\n");
 
+    printf("População: %lu\n", populacao1 > populacao2);
+    printf("Área: %.2f", area1 > area2);
+    printf("PIB: %.2f\n", PIB1 > PIB2);
+    printf("Pontos Turísticos: %d\n", PIB1 > PIB2);
+    printf("Densidade Populacional: %.2f\n", densidade_populacional1 < densidade_populacional2 );
+    printf("PIB per Capita: %.2f\n", PIB_per_Capita1 > PIB_per_Capita2);
+    printf("Super POder: %.2f\n\n");
     
-
     return 0;
 }
